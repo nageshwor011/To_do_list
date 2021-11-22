@@ -1,0 +1,58 @@
+.mainDiv{
+    background-color: #040723;
+   
+    height: 100vh;
+   
+}
+.cen{
+    border: 1px double red;
+}
+.noteText{
+    width: 90%;
+   border: none;
+   min-height: 30px;
+border-radius: 4px;
+margin-bottom: -10px;
+}
+.displayList{
+    width: 90%;
+border-radius: 4px;
+height: 30px;
+max-height: auto;
+
+}
+.delEdit{
+    margin-top: 3px;
+    margin-right: 5px;
+}
+.delete{
+   margin-left: 10px;
+   color: red; 
+   cursor: pointer;
+}
+.edit{
+    cursor: pointer;
+    color: yellow;
+}
+
+
+
+.btnAdd{
+    width: 30px;
+   margin-left: -35px;
+  font-size: 20px;
+}
+.buttonDlt{
+background-color: red !important;
+color: white !important;
+}
+.buttonDlt:hover{
+    background-color: white !important;
+    color: red !important;
+}
+
+@media only screen and (min-width: 600px) {
+    .buttonDlt{
+       width: 120px !important;
+    }
+}
